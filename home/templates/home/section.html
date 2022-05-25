@@ -1,12 +1,23 @@
 {% extends "base.html" %}
-{% load static wagtailcore_tags wagtailimages_tags home_tags %}
-
-{% block extra_css %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/section.css' %}">
-{% endblock extra_css %}
+{% load static wagtailcore_tags wagtailimages_tags home_tags questionnaires_tags sass_tags i18n wagtailuserbar menu_tags generic_components %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+{% get_available_languages as LANGUAGES %}
+{% get_language_info_list for LANGUAGES as languages %}
+{% get_current_language as LANGUAGE_CODE %}
 
 {% block content %}
-    <div class="home">
-        {% render_articles_list articles %}
+    <div class="section-img">
+        {% image page.lead_image width-360 class='lead-img' %}
+        <div class="image-overlay__text">{{ page.title }}</div>
     </div>
+    {% if user_progress %}
+        {% render_user_progress user_progress %}
+    {% endif %}
+    {% if featured_content %}
+        {% include 'home/tags/section_featured_content_card.html' with featured_content=featured_content font_color=page.font_color background_color=page.background_color %}
+    {% endif %}
+    {% if children %}
+        {% include 'home/tags/child_pages.html' with children=children %}
+    {% endif %}
 {% endblock content %}

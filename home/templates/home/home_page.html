@@ -1,15 +1,20 @@
 {% extends "base.html" %}
-{% load wagtailcore_tags %}
+{% load static wagtailcore_tags wagtailimages_tags wagtailuserbar menu_tags home_tags %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+{% get_available_languages as LANGUAGES %}
+{% get_language_info_list for LANGUAGES as languages %}
+{% get_current_language as LANGUAGE_CODE %}
 
 {% block content %}
-
-<h1>{{ page.title }}</h1>
-<div class="sections">
-    <ul>
-        {% for article in articles %}
-        <li><a href="{% pageurl section %}">{{ section.title }}</a></li>
-        {% endfor %}
-    </ul>
-</div>
-
+    <div class="home-page">
+        {% include 'home/tags/banners_list.html' with banners=banners %}
+        <div>
+            {% if page.home_featured_content %}
+                {% flat_menu LANGUAGE_CODE|add:'_menu_live' template="nav_bar.html" %}
+                {% include_block page.home_featured_content %}
+            {% endif %}
+        </div>
+    </div>
 {% endblock content %}

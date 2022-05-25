@@ -1,71 +1,103 @@
+from allauth.account.forms import SignupForm, ChangePasswordForm as BaseChangePasswordForm
 from allauth.utils import set_form_field_order
-from allauth.account.forms import SignupForm, PasswordField
 from django import forms
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm
-from django.forms import TextInput
-from wagtail.users.forms import UserEditForm as WagtailUserEditForm, UserCreationForm as WagtailUserCreationForm, \
-    custom_fields, standard_fields
+from django.core.exceptions import ValidationError
+from django.utils.translation import gettext_lazy as _
+from wagtail.users.forms import UserEditForm as WagtailUserEditForm, \
+    UserCreationForm as WagtailUserCreationForm
 
+from .fields import IogtPasswordField
 from .models import User
-from .utils import get_wagtail_admin_user_standard_fields
 
 
 class AccountSignupForm(SignupForm):
-    display_name = forms.CharField(label='Display Name', required=False, max_length=150)
-    terms_accepted = forms.BooleanField(label='I accept the terms & conditions')
+    display_name = forms.CharField(
+        label=_("Display name"),
+        widget=forms.TextInput(
+            attrs={"placeholder": _("Display name"),}
+        ),
+        required=False,
+    )
+    terms_accepted = forms.BooleanField(label=_('I accept the Terms and Conditions.'))
 
     field_order = [
         "username",
+        "display_name",
         "password1",
         "password2",
-        "display_name",
-        "email",
-        "terms_accepted"
+        "terms_accepted",
     ]
 
     def __init__(self, *args, **kwargs):
         super(AccountSignupForm, self).__init__(*args, **kwargs)
-        self.fields["password1"] = PasswordField(
-            label="4-digit PIN", autocomplete="new-password", max_length=4, widget=TextInput(attrs={'type': 'number'})
-        )
+        self.fields.pop('email')
+        self.fields["password1"] = IogtPasswordField(label=_("4-digit PIN"), autocomplete="new-password")
 
         if 'password2' in self.fields:
-            self.fields["password2"] = PasswordField(label="Confirm 4-digit PIN", max_length=4,
-                                                     widget=TextInput(attrs={'type': 'number'}))
+            self.fields["password2"] = IogtPasswordField(label=_("4-digit PIN"), autocomplete="new-password")
 
         if hasattr(self, "field_order"):
             set_form_field_order(self, self.field_order)
+
+    def clean_username(self):
+        username = self.cleaned_data.get('username')
+        if User.objects.filter(username__iexact=username):
+            raise ValidationError(_('Username not available.'))
+        return username
+
+    def clean_displayname(self):
+        display_name = self.cleaned_data.get('display_name')
+        if User.objects.filter(display_name__iexact=display_name):
+            raise ValidationError(_('Display name not available.'))
+        return display_name
+
+
+class ChangePasswordForm(BaseChangePasswordForm):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields["oldpassword"] = IogtPasswordField(label=_("Old 4-digit PIN"), autocomplete='old-password')
+        self.fields["password1"] = IogtPasswordField(label=_("New 4-digit PIN"), autocomplete='old-password')
+        self.fields["password2"] = IogtPasswordField(label=_("Confirm new 4-digit PIN"), autocomplete='old-password')
 
 
 class CustomUserCreationForm(UserCreationForm):
     class Meta:
         model = User
-        fields = ('username',)
+        fields = ('username', 'display_name',)
 
 
 class CustomUserChangeForm(UserChangeForm):
     class Meta:
         model = User
-        fields = ('username', 'groups', 'user_permissions')
+        fields = ('username', 'display_name', 'groups', 'user_permissions')
 
 
 class WagtailAdminUserCreateForm(WagtailUserCreationForm):
     email = forms.EmailField(required=False, label='Email')
-    first_name = None
-    last_name = None
-    display_name = forms.CharField(label='Display Name', required=False, max_length=150)
-    terms_accepted = forms.BooleanField(label='I accept the terms & conditions')
+    display_name = forms.CharField(required=False, label='Display Name')
+    first_name = forms.CharField(required=False, label='First Name')
+    last_name = forms.CharField(required=False, label='Last Name')
+    terms_accepted = forms.BooleanField(label=_('I accept the Terms and Conditions.'))
 
-    class Meta(WagtailUserCreationForm.Meta):
-        fields = set([User.USERNAME_FIELD]) | get_wagtail_admin_user_standard_fields() | custom_fields
+    def clean_username(self):
+        username = self.cleaned_data['username']
+        if User.objects.filter(username__iexact=username):
+            raise ValidationError(_('A user with that username already exists.'))
+        return username
+
+    def clean_displayname(self):
+        display_name = self.cleaned_data.get('display_name')
+        if User.objects.filter(display_name__iexact=display_name):
+            raise ValidationError(_('Display name not available.'))
+        return display_name
 
 
 class WagtailAdminUserEditForm(WagtailUserEditForm):
     email = forms.EmailField(required=False, label='Email')
-    first_name = None
-    last_name = None
-    display_name = forms.CharField(label='Display Name', required=False, max_length=150)
-    terms_accepted = forms.BooleanField(label='I accept the terms & conditions')
+    display_name = forms.CharField(required=False, label='Display Name')
+    first_name = forms.CharField(required=False, label='First Name')
+    last_name = forms.CharField(required=False, label='Last Name')
 
-    class Meta(WagtailUserEditForm.Meta):
-        fields = set([User.USERNAME_FIELD, "is_active"]) | get_wagtail_admin_user_standard_fields() | custom_fields
+    terms_accepted = forms.BooleanField(label=_('I accept the Terms and Conditions.'))

@@ -1,49 +1,110 @@
-{% load static wagtailuserbar home_tags %}
+{% load static wagtailuserbar home_tags sass_tags wagtailsettings_tags menu_tags generic_components i18n wagtailimages_tags %}
+{% get_settings %}
+
+<!--  Commit Hash: {{commit_hash}} -->
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>
-            {% block title %}
-                {% if self.seo_title %}{{ self.seo_title }}{% else %}{{ self.title }}{% endif %}
-            {% endblock %}
-            {% block title_suffix %}
-                {% with self.get_site.site_name as site_name %}
-                    {% if site_name %}- {{ site_name }}{% endif %}
-                {% endwith %}
-            {% endblock %}
-        </title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        {# Global stylesheets #}
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/iogt.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/header.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/footer.css' %}">
-
-        {% block extra_css %}
-            {# Override this in templates to add extra stylesheets #}
+<head>
+    {% include 'google_analytics_tag_manager.html' %}
+    <meta charset="utf-8"/>
+    <title>
+        {% block title %}
+            {% if page.seo_title %}
+                {{ page.seo_title }}
+            {% else %}
+                {{ page.title }}
+            {% endif %}
         {% endblock %}
-    </head>
+        {% block title_suffix %}
+            {% with page.get_site.site_name as site_name %}
+                {% if site_name %}- {{ site_name }}{% endif %}
+            {% endwith %}
+        {% endblock %}
+    </title>
+    {% image settings.home.SiteSettings.favicon width-60 as favicon_img %}
+    <link rel="shortcut icon" type="image/jpg" href="{{ favicon_img.url }}"/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#493174">
+    <link rel="manifest" href="{% url 'manifest' %}">
+    {% image settings.home.SiteSettings.apple_touch_icon width-120 as apple_touch_icon %}
+    <link rel="apple-touch-icon" type="image/jpg" href="{{ apple_touch_icon.url }}"/>
 
-    <body class="{% block body_class %}{% endblock %}">
-        {% wagtailuserbar %}
+    {# Global stylesheets #}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/chatbot.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/header/header.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/footer/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/navbar/navbar.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/global/global.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/iogt.css' %}">
 
-        <div id="app">
-            <div id="content-wrap">
-                {% include "header.html" %}
-                {% include "messages.html" %}
+    {% block extra_css %}
+        {# Override this in templates to add extra stylesheets #}
+    {% endblock %}
+</head>
 
-                {% block content %}{% endblock %}
+{% get_current_language_bidi as LANGUAGE_BIDI %}
+<body class="{% if LANGUAGE_BIDI %}rtl{% endif %} {% block body_class %}{% endblock %}">
+{% include 'google_analytics_pixel_tracking.html' %}
+{% wagtailuserbar %}
 
-                {% footer %}
+<main id="app">
+    <div id="content-wrap">
+        {% include "header.html" %}
+        <div class="main-wrapper" style="background: {{ settings.home.ThemeSettings.global_background_color }}">
+            <div class="content-holder">
+                <div class="other-links">
+                    {% if show_footers %}
+                        {% render_footer %}
+                    {% endif %}
+                </div>
+                {% with page_=page %}
+                    <div class="content">
+                        <div class="content-container">
+                            {% include "messages.html" %}
+                            {% block content %}{% endblock %}
+                            <p class='footer__copyright'>{% translate "© The Internet of Good Things" %}</p>
+                        </div>
+                    </div>
+                    {% include "footer.html" with page=page_ %}
+                {% endwith %}
             </div>
         </div>
+    </div>
+</main>
 
-        {# Global javascript #}
-        <script type="text/javascript" src="{% static 'js/iogt.js' %}"></script>
-        {% block extra_js %}{% endblock %}
+{# Global javascript #}
+<script>
+    var serviceWorkerURL = '{% url "sw.js" %}'
+</script>
+<script src="{% url 'javascript-catalog' %}"></script>
+<script src="{% static 'js/sw-init.js' %}"></script>
+<script src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'js/iogt.js' %}"></script>
+<noscript>
+    <style type="text/css">
+        #hideOnNonJSDevice, .hideOnNonJSDevice {
+            display: none;
+        }
 
-    </body>
+        .showOnNonJSDevice {
+            display: block !important;
+        }
+
+        <
+        /
+        script >
+        < noscript >
+        < style type
+
+        =
+        "text/css"
+        >
+        .cache-banner {
+            display: none;
+        }
+    </style>
+</noscript>
+{% block extra_js %}{% endblock %}
+</body>
 </html>

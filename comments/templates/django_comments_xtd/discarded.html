@@ -1,0 +1,9 @@
+{% extends "comments/base.html" %}
+{% load i18n %}
+
+{% block title %}{% translate "Comment discarded" %}.{% endblock %}
+
+{% block comment_content %}
+  <h1>{% translate "Comment automatically discarded" %}</h1>
+  <p>{% translate "Sorry, your comment has been automatically discarded" %}.</p>
+{% endblock %}

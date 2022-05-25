@@ -1,0 +1,10 @@
+{% load i18n %}
+{% load static wagtailcore_tags wagtailimages_tags %}
+
+<div class="quest-item__content">
+    <select name="{{ field.name }}" class="quest-item__input cust-select" {% if is_multiselect %}multiple{% endif %}>
+        {% for option in field %}
+            {{ option }}
+        {% endfor %}
+    </select>
+</div>

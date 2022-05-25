@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load questionnaires_tags %}
+{% load static wagtailimages_tags i18n %}
+
+{% block extra_css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/polls.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/questionnaire.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="polls">
+        <div class="polls-widget">
+            <div class="container">
+                <div class="polls-widget__wrap">
+                    <h1 class="title">{{ page.title }}</h1>
+                    <div class="polls-widget__form">
+                        {% if page.thank_you_text %}
+                            <div class="polls-widget__description">{{ page.thank_you_text }}</div>
+                        {% endif %}
+                        {% if page.show_results %}
+                            {% for question, answers in results.items %}
+                                {% snake_case question as current_answer %}
+                                {% for answer, count in answers.items %}
+                                    <div class="cust-check cust-check--white polls-widget__item{% if answer == request.POST|get_value_from_querydict:current_answer %} cust-check--active{% endif %}">
+                                        <div class="cust-check__title">
+                                            <div class="cust-check__title-left">
+                                                <span>{{ answer }}</span>
+                                                {% if answer == request.POST|get_value_from_querydict:current_answer %}
+                                                    <span class="cust-check__subtitle">{% translate "Your answer" %}</span>{% endif %}
+                                            </div>
+                                            <div class="cust-check__title-right">
+                                                <span class="cust-check__percent">{{ count |floatformat:"0" }}
+                                                    {% if result_as_percentage %}%{% endif %}</span>
+                                            </div>
+                                            <div class="cust-check__percent-item"
+                                                 style="width: {{ count |floatformat:"0" }}%"></div>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    {% include 'questionnaires/tags/poll_survey_buttons.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

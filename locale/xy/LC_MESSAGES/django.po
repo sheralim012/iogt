@@ -1,0 +1,1652 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-31 09:38+0000\n"
+"PO-Revision-Date: 2021-07-31 09:38+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: Testing\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Canned Responses"
+msgstr "([not-needed]-Canned Responses)"
+
+msgid "Bad Token"
+msgstr "([not-needed]-Bad Token)"
+
+msgid "%(time_period)s ago"
+msgstr "([not-needed]-%(time_period)s ago)"
+
+msgid "Home Page Banner"
+msgstr "([not-needed]-Home Page Banner)"
+
+msgid "Home Page Banners"
+msgstr "([not-needed]-Home Page Banners)"
+
+msgid "Username"
+msgstr "([has-translation]-Username)"
+
+msgid "Level"
+msgstr "([not-needed]-Level)"
+
+msgid "Status"
+msgstr "([not-needed]-Status)"
+
+msgid "Last Login"
+msgstr "([not-needed]-Last Login)"
+
+msgid "Admin"
+msgstr "([not-needed]-Admin)"
+
+msgid "Active"
+msgstr "([not-needed]-Active)"
+
+msgid "Inactive"
+msgstr "([not-needed]-Inactive)"
+
+msgid "Image to display as the banner"
+msgstr "([not-needed]-Image to display as the banner)"
+
+msgid "Background image"
+msgstr "([unused]-Background image)"
+
+msgid "Optional page to which the banner will link to"
+msgstr "([not-needed]-Optional page to which the banner will link to)"
+
+msgid "The title for a button"
+msgstr "([unused]-The title for a button)"
+
+msgid "Icon Button"
+msgstr "([unused]-Icon Button)"
+
+msgid ""
+"When selecting this option, untranslated pages will not be visible to the "
+"front end user when viewing a child language of the site"
+msgstr ""
+"([not-needed]-When selecting this option, untranslated pages will not be "
+"visible to the front end user when viewing a child language of the site)"
+
+msgid "Facebook Analytics App ID"
+msgstr "([not-needed]-Facebook Analytics App ID)"
+
+msgid "The tracking ID to be used to view Facebook Analytics"
+msgstr "([not-needed]-The tracking ID to be used to view Facebook Analytics)"
+
+msgid "Local GA Tag Manager"
+msgstr "([not-needed]-Local GA Tag Manager)"
+
+msgid ""
+"Local GA Tag Manager tracking code (e.g GTM-XXX) to be used to view "
+"analytics on this site only"
+msgstr ""
+"([not-needed]-Local GA Tag Manager tracking code (e.g GTM-XXX) to be used to"
+" view analytics on this site only)"
+
+msgid "Global GA Tag Manager"
+msgstr "([not-needed]-Global GA Tag Manager)"
+
+msgid ""
+"Global GA Tag Manager tracking code (e.g GTM-XXX) to be used to view "
+"analytics on more than one site globally"
+msgstr ""
+"([not-needed]-Global GA Tag Manager tracking code (e.g GTM-XXX) to be used "
+"to view analytics on more than one site globally)"
+
+msgid "Local GA Tracking Code"
+msgstr "([not-needed]-Local GA Tracking Code)"
+
+msgid "Local GA tracking code to be used to view analytics on this site only"
+msgstr ""
+"([not-needed]-Local GA tracking code to be used to view analytics on this "
+"site only)"
+
+msgid "Global GA Tracking Code"
+msgstr "([not-needed]-Global GA Tracking Code)"
+
+msgid ""
+"Global GA tracking code to be used to view analytics on more than one site "
+"globally"
+msgstr ""
+"([not-needed]-Global GA tracking code to be used to view analytics on more "
+"than one site globally)"
+
+msgid ""
+"Show warning if uploaded media file size is greater than this in bytes. "
+"Default is 9 MB"
+msgstr ""
+"([not-needed]-Show warning if uploaded media file size is greater than this "
+"in bytes. Default is 9 MB)"
+
+msgid "Site Settings"
+msgstr "([not-needed]-Site Settings)"
+
+msgid "Prompt users to download?"
+msgstr "([unused]-Prompt users to download?)"
+
+msgid "check to prompt first time users to download the website as an app"
+msgstr ""
+"([unused]-check to prompt first time users to download the website as an "
+"app)"
+
+msgid "Name"
+msgstr "([not-needed]-Name)"
+
+msgid "Provide name"
+msgstr "([unused]-Provide name)"
+
+msgid "Short name"
+msgstr "([not-needed]-Short name)"
+
+msgid "Provide short name"
+msgstr "([unused]-Provide short name)"
+
+msgid "Scope"
+msgstr "([not-needed]-Scope)"
+
+msgid "Provide scope"
+msgstr "([unused]-Provide scope)"
+
+msgid "Start URL"
+msgstr "([not-needed]-Start URL)"
+
+msgid "Provide start URL"
+msgstr "([unused]-Provide start URL)"
+
+msgid "Browser UI"
+msgstr "([not-needed]-Browser UI)"
+
+msgid "Provide browser UI"
+msgstr "([unused]-Provide browser UI)"
+
+msgid "Background color"
+msgstr "([not-needed]-Background color)"
+
+msgid "Provide background color (example: #FFF)"
+msgstr "([unused]-Provide background color (example: #FFF))"
+
+msgid "Theme color"
+msgstr "([not-needed]-Theme color)"
+
+msgid "Provide theme color(example: #493174)"
+msgstr "([unused]-Provide theme color(example: #493174))"
+
+msgid "Description"
+msgstr "([not-needed]-Description)"
+
+msgid "Provide description"
+msgstr "([unused]-Provide description)"
+
+msgid "Language"
+msgstr "([not-needed]-Language)"
+
+msgid "Choose language"
+msgstr "([not-needed]-Choose language)"
+
+msgid "Icon 96x96"
+msgstr "([not-needed]-Icon 96x96)"
+
+msgid "Add PNG icon 96x96 px"
+msgstr "([not-needed]-Add PNG icon 96x96 px)"
+
+msgid "Icon 512x512"
+msgstr "([not-needed]-Icon 512x512)"
+
+msgid "Add PNG icon 512x512 px"
+msgstr "([not-needed]-Add PNG icon 512x512 px)"
+
+msgid "Icon 196x196 (maskable)"
+msgstr "([unused]-Icon 196x196 (maskable))"
+
+msgid ""
+"Add PNG icon 196x196 px (maskable image can be created using "
+"https://maskable.app/)"
+msgstr ""
+"([unused]-Add PNG icon 196x196 px (maskable image can be created using "
+"https://maskable.app/))"
+
+msgid "Form Data"
+msgstr "([not-needed]-Form Data)"
+
+msgid "Upload Users"
+msgstr "([not-needed]-Upload Users)"
+
+msgid "Download XLSX"
+msgstr "([not-needed]-Download XLSX)"
+
+msgid "Download CSV"
+msgstr "([not-needed]-Download CSV)"
+
+msgid "Filter"
+msgstr "([not-needed]-Filter)"
+
+msgid ""
+"No %(name)s have been created yet. One of the following must be created "
+"before you can add any %(name)s:"
+msgstr ""
+"([not-needed]-No %(name)s have been created yet. One of the following must "
+"be created before you can add any %(name)s:)"
+
+msgid "No %(name)s have been created yet."
+msgstr "([not-needed]-No %(name)s have been created yet.)"
+
+msgid "Why not <a href=\"%(url)s\">add one</a>?"
+msgstr "([not-needed]-Why not <a href=\"%(url)s\">add one</a>?)"
+
+msgid "Pagination"
+msgstr "([not-needed]-Pagination)"
+
+msgid "Answer options"
+msgstr "([not-needed]-Answer options)"
+
+msgid "Next default question"
+msgstr "([not-needed]-Next default question)"
+
+msgid "Page break is only allowed with multi-step enabled."
+msgstr "([not-needed]-Page break is only allowed with multi-step enabled.)"
+
+msgid "Checkbox type questions must have 2 Answer Options: a on and off"
+msgstr ""
+"([unused]-Checkbox type questions must have 2 Answer Options: a on and off)"
+
+msgid "This field is required."
+msgstr "([has-partial-translation]-This field is required.)"
+
+msgid ""
+"Skipping to {logic.value[\"skip_logic\"]} not allowed for checkbox and "
+"checkboxes."
+msgstr ""
+"([unused]-Skipping to {logic.value[\"skip_logic\"]} not allowed for checkbox"
+" and checkboxes.)"
+
+msgid ""
+"Skipping to {logic.value[\"skip_logic\"]} not allowed for checkbox, "
+"checkboxes."
+msgstr ""
+"([unused]-Skipping to {logic.value[\"skip_logic\"]} not allowed for "
+"checkbox, checkboxes.)"
+
+msgid "Checkbox"
+msgstr "([not-needed]-Checkbox)"
+
+msgid "Checkboxes"
+msgstr "([not-needed]-Checkboxes)"
+
+msgid "Date"
+msgstr "([not-needed]-Date)"
+
+msgid "Date/time"
+msgstr "([not-needed]-Date/time)"
+
+msgid "Drop down"
+msgstr "([not-needed]-Drop down)"
+
+msgid "Email"
+msgstr "([not-needed]-Email)"
+
+msgid "Hidden field"
+msgstr "([unused]-Hidden field)"
+
+msgid "Single line text"
+msgstr "([not-needed]-Single line text)"
+
+msgid "Multi-line text"
+msgstr "([not-needed]-Multi-line text)"
+
+msgid "Number"
+msgstr "([not-needed]-Number)"
+
+msgid "Positive number"
+msgstr "([not-needed]-Positive number)"
+
+msgid "Radio buttons"
+msgstr "([not-needed]-Radio buttons)"
+
+msgid "URL"
+msgstr "([not-needed]-URL)"
+
+msgid "Check this to allow users who are NOT logged in to complete surveys."
+msgstr ""
+"([not-needed]-Check this to allow users who are NOT logged in to complete "
+"surveys.)"
+
+msgid "Check this to allow multiple form submissions for users"
+msgstr ""
+"([not-needed]-Check this to allow multiple form submissions for users)"
+
+msgid "Submit button text"
+msgstr "([not-needed]-Submit button text)"
+
+msgid "required"
+msgstr "([unused]-required)"
+
+msgid "field type"
+msgstr "([not-needed]-field type)"
+
+msgid "admin_label"
+msgstr "([not-needed]-admin_label)"
+
+msgid "Column header used during CSV export of survey responses."
+msgstr ""
+"([not-needed]-Column header used during CSV export of survey responses.)"
+
+msgid ""
+"This is used to add choices for field type radio, checkbox, checkboxes, and "
+"dropdown only. This can be used to skip questions and skipping is only "
+msgstr ""
+"([unused]-This is used to add choices for field type radio, checkbox, "
+"checkboxes, and dropdown only. This can be used to skip questions and "
+"skipping is only )"
+
+msgid "Inserts a page break which puts the next question onto a new page"
+msgstr ""
+"([not-needed]-Inserts a page break which puts the next question onto a new "
+"page)"
+
+msgid "Multi-step"
+msgstr "([not-needed]-Multi-step)"
+
+msgid ""
+"Whether to display the survey questions to the user one at a time, instead "
+"of all at once."
+msgstr ""
+"([not-needed]-Whether to display the survey questions to the user one at a "
+"time, instead of all at once.)"
+
+msgid "General settings for survey"
+msgstr "([not-needed]-General settings for survey)"
+
+msgid "Description at survey page"
+msgstr "([not-needed]-Description at survey page)"
+
+msgid "User"
+msgstr "([not-needed]-User)"
+
+msgid "Submission Date"
+msgstr "([not-needed]-Submission Date)"
+
+msgid "Page URL"
+msgstr "([not-needed]-Page URL)"
+
+msgid "survey"
+msgstr "([has-partial-translation]-survey)"
+
+msgid "surveys"
+msgstr "([not-needed]-surveys)"
+
+msgid "Dropdown"
+msgstr "([not-needed]-Dropdown)"
+
+msgid "This option allows the users to see the results."
+msgstr "([not-needed]-This option allows the users to see the results.)"
+
+msgid ""
+"If not checked, the results will be shown as a total instead of a "
+"percentage."
+msgstr ""
+"([not-needed]-If not checked, the results will be shown as a total instead "
+"of a percentage.)"
+
+msgid "General settings for poll"
+msgstr "([not-needed]-General settings for poll)"
+
+msgid "Description at poll page"
+msgstr "([not-needed]-Description at poll page)"
+
+msgid "poll"
+msgstr "([has-partial-translation]-poll)"
+
+msgid "polls"
+msgstr "([not-needed]-polls)"
+
+msgid "correct_answer"
+msgstr "([not-needed]-correct_answer)"
+
+msgid ""
+"The correct answer/choice(s). For checkboxes: a comma separated list of "
+"choices. For checkbox: Either \"on\" or \"off\"."
+msgstr ""
+"([unused]-The correct answer/choice(s). For checkboxes: a comma separated "
+"list of choices. For checkbox: Either \"on\" or \"off\".)"
+
+msgid "Feedback"
+msgstr "([not-needed]-Feedback)"
+
+msgid "Feedback message for user answer."
+msgstr "([not-needed]-Feedback message for user answer.)"
+
+msgid "General settings for quiz"
+msgstr "([not-needed]-General settings for quiz)"
+
+msgid "Description at quiz page"
+msgstr "([not-needed]-Description at quiz page)"
+
+msgid "End of survey"
+msgstr "([not-needed]-End of survey)"
+
+msgid "Another question"
+msgstr "([not-needed]-Another question)"
+
+msgid "Account Inactive"
+msgstr "([not-needed]-Account Inactive)"
+
+msgid "This account is inactive."
+msgstr "([not-needed]-This account is inactive.)"
+
+msgid "Featured Content"
+msgstr "([not-needed]-Featured Content)"
+
+msgid "Recommended Articles"
+msgstr "([not-needed]-Recommended Articles)"
+
+msgid "Chat"
+msgstr "([has-translation]-Chat)"
+
+msgid "Delete Thread"
+msgstr "([TODO]-Delete Thread)"
+
+msgid "Cancel"
+msgstr "([has-translation]-Cancel)"
+
+msgid "Send"
+msgstr "([has-partial-translation]-Send)"
+
+msgid "Confirm Delete:"
+msgstr "([not-needed]-Confirm Delete:)"
+
+msgid "Are you sure you want to delete this thread?"
+msgstr "([TODO]-Are you sure you want to delete this thread?)"
+
+msgid "Delete"
+msgstr "([TODO]-Delete)"
+
+msgid "Load more"
+msgstr "([unused]-Load more)"
+
+msgid "Reply here..."
+msgstr "([unused]-Reply here...)"
+
+msgid "Reply"
+msgstr "([has-translation]-Reply)"
+
+msgid "Remove comment"
+msgstr "([not-needed]-Remove comment)"
+
+msgid "Remove this comment?"
+msgstr "([has-partial-translation]-Remove this comment?)"
+
+msgid "Remove"
+msgstr "([has-partial-translation]-Remove)"
+
+msgid "Comment removed"
+msgstr "([not-needed]-Comment removed)"
+
+msgid "The comment has been removed."
+msgstr "([not-needed]-The comment has been removed.)"
+
+msgid ""
+"Thank you for taking the time to improve the quality of discussion in our "
+"site."
+msgstr ""
+"([not-needed]-Thank you for taking the time to improve the quality of "
+"discussion in our site.)"
+
+msgid "Flag comment"
+msgstr "([unused]-Flag comment)"
+
+msgid "Flag this comment?"
+msgstr "([unused]-Flag this comment?)"
+
+msgid ""
+"Click on the flag button to mark the following comment as inappropriate."
+msgstr ""
+"([unused]-Click on the flag button to mark the following comment as "
+"inappropriate.)"
+
+msgid "Posted to "
+msgstr "([TODO]-Posted to )"
+
+msgid "Flag"
+msgstr "([unused]-Flag)"
+
+msgid "Comment flagged"
+msgstr "([not-needed]-Comment flagged)"
+
+msgid "The comment has been flagged."
+msgstr "([not-needed]-The comment has been flagged.)"
+
+msgid "Leave comment"
+msgstr "([has-translation]-Leave comment)"
+
+msgid "Preview your comment"
+msgstr "([not-needed]-Preview your comment)"
+
+msgid "Preview of your comment for:"
+msgstr "([not-needed]-Preview of your comment for:)"
+
+msgid "Empty comment."
+msgstr "([not-needed]-Empty comment.)"
+
+msgid "Post your comment"
+msgstr "([not-needed]-Post your comment)"
+
+msgid "This comment has been removed."
+msgstr "([has-partial-translation]-This comment has been removed.)"
+
+msgid "List of comments"
+msgstr "([not-needed]-List of comments)"
+
+msgid "No comments yet."
+msgstr "([not-needed]-No comments yet.)"
+
+msgid "moderator"
+msgstr "([has-partial-translation]-moderator)"
+
+msgid "Report"
+msgstr "([has-translation]-Report)"
+
+msgid "This is a reported comment"
+msgstr "([unused]-This is a reported comment)"
+
+msgid "Comment discarded"
+msgstr "([not-needed]-Comment discarded)"
+
+msgid "Comment automatically discarded"
+msgstr "([not-needed]-Comment automatically discarded)"
+
+msgid "Sorry, your comment has been automatically discarded"
+msgstr "([not-needed]-Sorry, your comment has been automatically discarded)"
+
+msgid "Confirm your opinion"
+msgstr "([not-needed]-Confirm your opinion)"
+
+msgid "You liked this comment, do you want to change it?"
+msgstr "([not-needed]-You liked this comment, do you want to change it?)"
+
+msgid "Do you like this comment?"
+msgstr "([not-needed]-Do you like this comment?)"
+
+msgid "Please, confirm your opinion about the comment."
+msgstr "([not-needed]-Please, confirm your opinion about the comment.)"
+
+msgid ""
+"Click on the \"withdraw\" button if you want to withdraw your positive "
+"opinion on this comment."
+msgstr ""
+"([not-needed]-Click on the \"withdraw\" button if you want to withdraw your "
+"positive opinion on this comment.)"
+
+msgid "Withdraw"
+msgstr "([not-needed]-Withdraw)"
+
+msgid "I like it"
+msgstr "([not-needed]-I like it)"
+
+msgid "Your opinion is appreciated"
+msgstr "([not-needed]-Your opinion is appreciated)"
+
+msgid "Thanks for taking the time to participate."
+msgstr "([not-needed]-Thanks for taking the time to participate.)"
+
+msgid "Comment requires approval"
+msgstr "([not-needed]-Comment requires approval)"
+
+msgid "Comment in moderation"
+msgstr "([not-needed]-Comment in moderation)"
+
+msgid ""
+"Your comment is in moderation.<br/> It has to be reviewed before being "
+"published.<br/> Thank you for your patience and understanding."
+msgstr ""
+"([TODO]-Your comment is in moderation.<br/> It has to be reviewed before "
+"being published.<br/> Thank you for your patience and understanding.)"
+
+msgid "Go back to: <a href=\"%(content_object_url)s\">%(content_object_str)s</a>"
+msgstr ""
+"([not-needed]-Go back to: <a "
+"href=\"%(content_object_url)s\">%(content_object_str)s</a>)"
+
+msgid "Comment thread muted"
+msgstr "([not-needed]-Comment thread muted)"
+
+msgid "Comment thread has been muted"
+msgstr "([not-needed]-Comment thread has been muted)"
+
+msgid "You will no longer receive email notifications for comments sent to"
+msgstr ""
+"([not-needed]-You will no longer receive email notifications for comments "
+"sent to)"
+
+msgid "Only registered users can post comments."
+msgstr "([not-needed]-Only registered users can post comments.)"
+
+msgid "Comment reply"
+msgstr "([unused]-Comment reply)"
+
+msgid "Reply to comment"
+msgstr "([unused]-Reply to comment)"
+
+msgid "The comment has been updated successfully!"
+msgstr "([unused]-The comment has been updated successfully!)"
+
+msgid "Sent Reply successfully"
+msgstr "([not-needed]-Sent Reply successfully)"
+
+msgid "Your browser does not support the video tag."
+msgstr "([unused]-Your browser does not support the video tag.)"
+
+msgid "Your browser does not support the audio element."
+msgstr "([unused]-Your browser does not support the audio element.)"
+
+msgid ""
+"If you cannot view the above video, perhaps would you like to %(start_link)s"
+" download it? %(end_link)s."
+msgstr ""
+"([unused]-If you cannot view the above video, perhaps would you like to "
+"%(start_link)s download it? %(end_link)s.)"
+
+msgid ""
+"If you cannot listen to the above audio, perhaps would you like to "
+"%(start_link)s download it? %(end_link)s."
+msgstr ""
+"([unused]-If you cannot listen to the above audio, perhaps would you like to"
+" %(start_link)s download it? %(end_link)s.)"
+
+msgid "[This page is not available in English]"
+msgstr "([unused]-[This page is not available in English])"
+
+msgid "sections"
+msgstr "([has-partial-translation]-sections)"
+
+msgid "articles"
+msgstr "([has-translation]-articles)"
+
+msgid "%(counter)s of 1 question"
+msgstr "([unused]-%(counter)s of 1 question)"
+
+msgid "%(counter)s of %(total)s questions"
+msgstr "([has-translation]-%(counter)s of %(total)s questions)"
+
+msgid "Optional"
+msgstr "([has-translation]-Optional)"
+
+msgid "Select one"
+msgstr "([has-translation]-Select one)"
+
+msgid "Check all that apply"
+msgstr "([has-translation]-Check all that apply)"
+
+msgid "Check if applies"
+msgstr "([has-partial-translation]-Check if applies)"
+
+msgid "Comments"
+msgstr "([has-translation]-Comments)"
+
+msgid "Please log in or create your account"
+msgstr "([has-translation]-Please log in or create your account)"
+
+msgid "New comments have been disabled for this page."
+msgstr ""
+"([has-partial-translation]-New comments have been disabled for this page.)"
+
+msgid "Related Articles"
+msgstr "([has-translation]-Related Articles)"
+
+msgid "Log in"
+msgstr "([has-translation]-Log in)"
+
+msgid "Previous"
+msgstr "([has-translation]-Previous)"
+
+msgid "Page not found"
+msgstr "([has-translation]-Page not found)"
+
+msgid "Sorry, this page could not be found."
+msgstr "([has-translation]-Sorry, this page could not be found.)"
+
+msgid "Internal server error"
+msgstr "([has-translation]-Internal server error)"
+
+msgid "Create your account"
+msgstr "([has-translation]-Create your account)"
+
+msgid "Sign Out"
+msgstr "([unused]-Sign Out)"
+
+msgid "Are you sure you want to sign out?"
+msgstr "([unused]-Are you sure you want to sign out?)"
+
+msgid "Change Password"
+msgstr "([unused]-Change Password)"
+
+msgid "Forgot Password?"
+msgstr "([unused]-Forgot Password?)"
+
+msgid "Password Reset"
+msgstr "([unused]-Password Reset)"
+
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you"
+" an e-mail allowing you to reset it."
+msgstr ""
+"([unused]-Forgotten your password? Enter your e-mail address below, and "
+"we'll send you an e-mail allowing you to reset it.)"
+
+msgid "Reset My Password"
+msgstr "([unused]-Reset My Password)"
+
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr ""
+"([TODO]-Please contact us if you have any trouble resetting your password.)"
+
+msgid ""
+"If you don’t receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder. "
+msgstr ""
+"([unused]-If you don’t receive an email, please make sure you've entered the"
+" address you registered with, and check your spam folder. )"
+
+msgid "quiz"
+msgstr "([has-partial-translation]-quiz)"
+
+msgid "quizzes"
+msgstr "([has-translation]-quizzes)"
+
+msgid "Your answer"
+msgstr "([has-translation]-Your answer)"
+
+msgid "POLL"
+msgstr "([unused]-POLL)"
+
+msgid "QUIZ"
+msgstr "([unused]-QUIZ)"
+
+msgid "Next"
+msgstr "([has-translation]-Next)"
+
+msgid "SURVEY"
+msgstr "([unused]-SURVEY)"
+
+msgid "No limit"
+msgstr "([has-translation]-No limit)"
+
+msgid "Go to homepage"
+msgstr "([has-translation]-Go to homepage)"
+
+msgid "Your results!"
+msgstr "([has-translation]-Your results!)"
+
+msgid "Correct"
+msgstr "([has-translation]-Correct)"
+
+msgid "Incorrect"
+msgstr "([has-translation]-Incorrect)"
+
+msgid "Replay Quiz"
+msgstr "([has-translation]-Replay Quiz)"
+
+msgid "Correct answer"
+msgstr "([has-partial-translation]-Correct answer)"
+
+msgid "Get Started"
+msgstr "([unused]-Get Started)"
+
+msgid "Search results for: "
+msgstr "([unused]-Search results for: )"
+
+msgid "1 result"
+msgid_plural "%(counter)s results"
+msgstr[0] "([has-partial-translation]-1 result)"
+msgstr[1] "([unused]-%(counter)s results)"
+
+msgid "No results found"
+msgstr "([unused]-No results found)"
+
+msgid "No search results were found for"
+msgstr "([has-translation]-No search results were found for)"
+
+msgid "It seems we can’t find any results based on your search."
+msgstr "([unused]-It seems we can’t find any results based on your search.)"
+
+msgid "See results"
+msgstr "([unused]-See results)"
+
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. <a href=\"%(passwd_reset_url)s\">Please request a new password "
+"reset</a>."
+msgstr ""
+"([TODO]-The password reset link was invalid, possibly because it has already"
+" been used. <a href=\"%(passwd_reset_url)s\">Please request a new password "
+"reset</a>.)"
+
+msgid "Your password is now changed."
+msgstr "([unused]-Your password is now changed.)"
+
+msgid "Set Password"
+msgstr "([not-needed]-Set Password)"
+
+msgid "BACK"
+msgstr "([has-translation]-BACK)"
+
+msgid "© The Internet of Good Things"
+msgstr "([has-translation]-© The Internet of Good Things)"
+
+msgid ""
+"This appears to be your first visit here. Our website is also available as a"
+" downloadable app."
+msgstr ""
+"([unused]-This appears to be your first visit here. Our website is also "
+"available as a downloadable app.)"
+
+msgid "Would you like to download it?"
+msgstr "([unused]-Would you like to download it?)"
+
+msgid "Download"
+msgstr "([has-partial-translation]-Download)"
+
+msgid "Search the site..."
+msgstr "([has-translation]-Search the site...)"
+
+msgid "Log in / Create account"
+msgstr "([has-translation]-Log in / Create account)"
+
+msgid ""
+"You are leaving the <b>Internet of Good Things</b> to visit an external "
+"website and standard data charges by your network provider might apply"
+msgstr ""
+"([has-partial-translation]-You are leaving the <b>Internet of Good "
+"Things</b> to visit an external website and standard data charges by your "
+"network provider might apply)"
+
+msgid "Continue to external site"
+msgstr "([has-partial-translation]-Continue to external site)"
+
+msgid "Go back to previous page"
+msgstr "([unused]-Go back to previous page)"
+
+msgid "I accept the terms & conditions"
+msgstr "([unused]-I accept the terms & conditions)"
+
+msgid "4-digit PIN"
+msgstr "([has-partial-translation]-4-digit PIN)"
+
+msgid "Enter Your Name"
+msgstr "([unused]-Enter Your Name)"
+
+msgid "Old 4-digit PIN"
+msgstr "([has-partial-translation]-Old 4-digit PIN)"
+
+msgid "New 4-digit PIN"
+msgstr "([has-partial-translation]-New 4-digit PIN)"
+
+msgid "Confirm new 4-digit PIN"
+msgstr "([has-partial-translation]-Confirm new 4-digit PIN)"
+
+msgid "Page %(current_page)s of %(num_pages)s."
+msgstr "([TODO]-Page %(current_page)s of %(num_pages)s.)"
+
+msgid "Post Registration Survey"
+msgstr "([unused]-Post Registration Survey)"
+
+msgid "Please fill this survey to keep using Internet of Good Things"
+msgstr ""
+"([unused]-Please fill this survey to keep using Internet of Good Things)"
+
+msgid "Edit my profile"
+msgstr "([unused]-Edit my profile)"
+
+msgid "Hey, %(username)s"
+msgstr "([has-translation]-Hey, %(username)s)"
+
+msgid "Change Digital Pin"
+msgstr "([has-translation]-Change Digital Pin)"
+
+msgid "Log out"
+msgstr "([has-partial-translation]-Log out)"
+
+msgid "Personal Details"
+msgstr "([has-translation]-Personal Details)"
+
+msgid "Save changes"
+msgstr "([has-translation]-Save changes)"
+
+msgid "Back"
+msgstr "([has-translation]-Back)"
+
+msgid ""
+"As a moderator you can delete comments. Deleting a comment does not remove "
+"it from the site, only prevents your website from showing the text. Click on"
+" the remove button to delete the following comment:"
+msgstr ""
+"([TODO]-As a moderator you can delete comments. Deleting a comment does not "
+"remove it from the site, only prevents your website from showing the text. "
+"Click on the remove button to delete the following comment:)"
+
+msgid "Reported by %(count)s user"
+msgstr "([unused]-Reported by %(count)s user)"
+
+msgid "Reported by %(count)s users"
+msgstr "([unused]-Reported by %(count)s users)"
+
+msgid "Arabic"
+msgstr "([not-needed]-Arabic)"
+
+msgid "Chichewa"
+msgstr "([not-needed]-Chichewa)"
+
+msgid "English"
+msgstr "([not-needed]-English)"
+
+msgid "French"
+msgstr "([not-needed]-French)"
+
+msgid "Khmer"
+msgstr "([not-needed]-Khmer)"
+
+msgid "Kinyarwanda"
+msgstr "([not-needed]-Kinyarwanda)"
+
+msgid "Kurdish"
+msgstr "([not-needed]-Kurdish)"
+
+msgid "Malagasy"
+msgstr "([not-needed]-Malagasy)"
+
+msgid "Nepali"
+msgstr "([not-needed]-Nepali)"
+
+msgid "Ndebele"
+msgstr "([not-needed]-Ndebele)"
+
+msgid "Portuguese"
+msgstr "([not-needed]-Portuguese)"
+
+msgid "Quechua"
+msgstr "([not-needed]-Quechua)"
+
+msgid "Russian"
+msgstr "([not-needed]-Russian)"
+
+msgid "Shona"
+msgstr "([not-needed]-Shona)"
+
+msgid "Spanish"
+msgstr "([not-needed]-Spanish)"
+
+msgid "Swahili"
+msgstr "([not-needed]-Swahili)"
+
+msgid "Tajik"
+msgstr "([not-needed]-Tajik)"
+
+msgid "Tigrinya"
+msgstr "([not-needed]-Tigrinya)"
+
+msgid "Urdu"
+msgstr "([not-needed]-Urdu)"
+
+msgid "Uzbek"
+msgstr "([not-needed]-Uzbek)"
+
+msgid "Zulu"
+msgstr "([not-needed]-Zulu)"
+
+msgid "Simulate form completion"
+msgstr "([unused]-Simulate form completion)"
+
+msgid "section"
+msgstr "([has-partial-translation]-section)"
+
+msgid "article"
+msgstr "([has-partial-translation]-article)"
+
+msgid ""
+"Something went wrong. Can you try refreshing the page, and clicking the "
+"download website button?"
+msgstr ""
+"([unused]-Something went wrong. Can you try refreshing the page, and "
+"clicking the download website button?)"
+
+msgid ""
+"Your app is now ready to install. If you are using a iOS device, you can "
+"install it by clicking 'Share', scrolling down and tapping 'Add to Home "
+"Screen. If using Android choose 'Add to home screen' and you should be all "
+"set!"
+msgstr ""
+"([unused]-Your app is now ready to install. If you are using a iOS device, "
+"you can install it by clicking 'Share', scrolling down and tapping 'Add to "
+"Home Screen. If using Android choose 'Add to home screen' and you should be "
+"all set!)"
+
+msgid "Yes"
+msgstr "([unused]-Yes)"
+
+msgid "No"
+msgstr "([unused]-No)"
+
+msgid ""
+"Skip to end of survey with in-between required questions isn't allowed."
+msgstr ""
+"([not-needed]-Skip to end of survey with in-between required questions isn't"
+" allowed.)"
+
+msgid "Indonesian"
+msgstr "([not-needed]-Indonesian)"
+
+msgid "Kirundi"
+msgstr "([not-needed]-Kirundi)"
+
+msgid "Karakalpak"
+msgstr "([not-needed]-Karakalpak)"
+
+msgid "Testing"
+msgstr "([not-needed]-Testing)"
+
+msgid ""
+"This is used to add choices for field type radio, checkbox, checkboxes, and "
+"dropdown only. This can be used to skip questions and skipping is only "
+"allowed for radio and dropdown."
+msgstr ""
+"([unused]-This is used to add choices for field type radio, checkbox, "
+"checkboxes, and dropdown only. This can be used to skip questions and "
+"skipping is only allowed for radio and dropdown.)"
+
+msgid ""
+"Skip to question "
+"{question_data[last_question_number].cleaned_data[\"label\"]} "
+msgstr ""
+"([not-needed]-Skip to question "
+"{question_data[last_question_number].cleaned_data[\"label\"]} )"
+
+msgid "Remember me"
+msgstr "([has-partial-translation]-Remember me)"
+
+msgid "You have signed out."
+msgstr "([has-partial-translation]-You have signed out.)"
+
+msgid ""
+"Enter a valid username. This value may contain only letters, numbers, and "
+"@/./+/-/_ characters."
+msgstr ""
+"([has-partial-translation]-Enter a valid username. This value may contain "
+"only letters, numbers, and @/./+/-/_ characters.)"
+
+msgid "You must type the same password each time."
+msgstr ""
+"([has-partial-translation]-You must type the same password each time.)"
+
+msgid "This password is too short. It must contain at least 4 characters."
+msgstr ""
+"([has-partial-translation]-This password is too short. It must contain at "
+"least 4 characters.)"
+
+msgid "Please type your current password."
+msgstr "([has-partial-translation]-Please type your current password.)"
+
+msgid "Password successfully changed."
+msgstr "([has-partial-translation]-Password successfully changed.)"
+
+msgid "Enter a valid date/time."
+msgstr "([has-partial-translation]-Enter a valid date/time.)"
+
+msgid "Enter a valid date."
+msgstr "([has-partial-translation]-Enter a valid date.)"
+
+msgid "Enter a valid URL."
+msgstr "([has-partial-translation]-Enter a valid URL.)"
+
+msgid "Enter a valid email address."
+msgstr "([has-partial-translation]-Enter a valid email address.)"
+
+msgid "Enter a valid integer."
+msgstr "([has-partial-translation]-Enter a valid integer.)"
+
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+"([has-partial-translation]-Ensure this value is greater than or equal to "
+"%(limit_value)s.)"
+
+msgid "Your comment"
+msgstr "([has-partial-translation]-Your comment)"
+
+msgid ""
+"If Page link is a section page and icon is blank then the section icon will "
+"be used. Specify an icon here to override this."
+msgstr ""
+"([not-needed]-If Page link is a section page and icon is blank then the "
+"section icon will be used. Specify an icon here to override this.)"
+
+msgid ""
+"A relative path to redirect from e.g. /en/youth. See "
+"https://docs.wagtail.io/en/stable/editor_manual/managing_redirects.html for "
+"more details"
+msgstr ""
+"([unused]-A relative path to redirect from e.g. /en/youth. See "
+"https://docs.wagtail.io/en/stable/editor_manual/managing_redirects.html for "
+"more details)"
+
+msgid "Reset PIN"
+msgstr "([has-translation]-Reset PIN)"
+
+msgid "Forgot PIN"
+msgstr "([has-translation]-Forgot PIN)"
+
+msgid ""
+"Enter your email address below, and we'll email instructions for setting a "
+"new one."
+msgstr ""
+"([not-needed]-Enter your email address below, and we'll email instructions "
+"for setting a new one.)"
+
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+"([TODO]-If you don't receive an email, please make sure you've entered the "
+"address you registered with, and check your spam folder.)"
+
+msgid "Your PIN has been changed successfully."
+msgstr "([has-translation]-Your PIN has been changed successfully.)"
+
+msgid "I accept the Terms and Conditions."
+msgstr "([has-translation]-I accept the Terms and Conditions.)"
+
+msgid "My Profile"
+msgstr "([unused]-My Profile)"
+
+msgid "Related articles"
+msgstr "([unused]-Related articles)"
+
+msgid "The comment has been {verb} successfully!"
+msgstr "([not-needed]-The comment has been {verb} successfully!)"
+
+msgid ""
+"This text appears when it is possible for the user to install the app on "
+"their phone."
+msgstr ""
+"([not-needed]-This text appears when it is possible for the user to install "
+"the app on their phone.)"
+
+msgid ""
+"This text appears when the user is using a feature phone and thus cannot "
+"install the app (the button will be disabled in this case). [Currently not "
+"implemented]"
+msgstr ""
+"([not-needed]-This text appears when the user is using a feature phone and "
+"thus cannot install the app (the button will be disabled in this case). "
+"[Currently not implemented])"
+
+msgid ""
+"This text appears when the user is navigating the site via the offline app "
+"and thus it doesn't make sense to install the offline app again (the button "
+"will be disabled in this case). [Currently not implemented]"
+msgstr ""
+"([not-needed]-This text appears when the user is navigating the site via the"
+" offline app and thus it doesn't make sense to install the offline app again"
+" (the button will be disabled in this case). [Currently not implemented])"
+
+msgid "Reloading translations..."
+msgstr "([unused]-Reloading translations...)"
+
+msgid "The translations have been loaded successfully!"
+msgstr "([not-needed]-The translations have been loaded successfully!)"
+
+msgid "The translations have been published successfully!"
+msgstr "([unused]-The translations have been published successfully!)"
+
+msgid "footer"
+msgstr "([not-needed]-footer)"
+
+msgid "footers"
+msgstr "([not-needed]-footers)"
+
+msgid "link to a custom URL"
+msgstr "([not-needed]-link to a custom URL)"
+
+msgid ""
+"If you are linking back to a URL on your own IoGT site, be sure to remove "
+"the domain and everything before it. For example "
+"\"http://sd.goodinternet.org/url/\" should instead be \"/url/\"."
+msgstr ""
+"([not-needed]-If you are linking back to a URL on your own IoGT site, be "
+"sure to remove the domain and everything before it. For example "
+"\"http://sd.goodinternet.org/url/\" should instead be \"/url/\".)"
+
+msgid "The background color of the flat menu item on Desktop + Mobile"
+msgstr ""
+"([not-needed]-The background color of the flat menu item on Desktop + "
+"Mobile)"
+
+msgid "The font color of the flat menu item on Desktop + Mobile"
+msgstr ""
+"([not-needed]-The font color of the flat menu item on Desktop + Mobile)"
+
+msgid ""
+"Provide name that usually represents the name of the web application to user"
+msgstr ""
+"([not-needed]-Provide name that usually represents the name of the web "
+"application to user)"
+
+msgid ""
+"Provide short name to be displayed, if there is not enough space to display "
+"full name"
+msgstr ""
+"([not-needed]-Provide short name to be displayed, if there is not enough "
+"space to display full name)"
+
+msgid ""
+"Provide navigation scope to limit what web pages can be viewed Example: "
+"'https://www.iogt.com/<page-url>/' limits navigation to <page-url> of "
+"https://www.iogt.com:"
+msgstr ""
+"([not-needed]-Provide navigation scope to limit what web pages can be viewed"
+" Example: 'https://www.iogt.com/<page-url>/' limits navigation to <page-url>"
+" of https://www.iogt.com:)"
+
+msgid ""
+"Start URL is the preferred URL that should be loaded when the user launches "
+"the web application"
+msgstr ""
+"([not-needed]-Start URL is the preferred URL that should be loaded when the "
+"user launches the web application)"
+
+msgid ""
+"Determines the preferred display mode for the website. The possible values "
+"are: 'fullscreen', 'standalone', 'minimal-ui', 'browser'. A better choice "
+"would be to use standalone as it looks great on mobile as well. For further "
+"information refer to: https://developer.mozilla.org/en-"
+"US/docs/Web/Manifest/display#values"
+msgstr ""
+"([not-needed]-Determines the preferred display mode for the website. The "
+"possible values are: 'fullscreen', 'standalone', 'minimal-ui', 'browser'. A "
+"better choice would be to use standalone as it looks great on mobile as "
+"well. For further information refer to: https://developer.mozilla.org/en-"
+"US/docs/Web/Manifest/display#values)"
+
+msgid ""
+"Background color member defines a placeholder background color for the "
+"application page to display before its stylesheet is loaded. (example: #FFF)"
+msgstr ""
+"([not-needed]-Background color member defines a placeholder background color"
+" for the application page to display before its stylesheet is loaded. "
+"(example: #FFF))"
+
+msgid ""
+"Theme color defines the default theme color for the application (example: "
+"#493174)"
+msgstr ""
+"([not-needed]-Theme color defines the default theme color for the "
+"application (example: #493174))"
+
+msgid "Provide description for application"
+msgstr "([not-needed]-Provide description for application)"
+
+msgid "Icon 192x192 (maskable)"
+msgstr "([not-needed]-Icon 192x192 (maskable))"
+
+msgid ""
+"Add PNG icon 192x192 px (maskable image can be created using "
+"https://maskable.app/)"
+msgstr ""
+"([not-needed]-Add PNG icon 192x192 px (maskable image can be created using "
+"https://maskable.app/))"
+
+msgid "Load Translations"
+msgstr "([unused]-Load Translations)"
+
+msgid "limited translatable strings"
+msgstr "([not-needed]-limited translatable strings)"
+
+msgid "missing translations"
+msgstr "([not-needed]-missing translations)"
+
+msgid "Are you sure you want to log out?"
+msgstr "([has-partial-translation]-Are you sure you want to log out?)"
+
+msgid " The Internet of Good Things"
+msgstr "([unused]- The Internet of Good Things)"
+
+msgid "Add an external link"
+msgstr "([not-needed]-Add an external link)"
+
+msgid "Insert link"
+msgstr "([not-needed]-Insert link)"
+
+msgid "Pages awaiting moderation"
+msgstr "([not-needed]-Pages awaiting moderation)"
+
+msgid "Title"
+msgstr "([not-needed]-Title)"
+
+msgid "Parent"
+msgstr "([not-needed]-Parent)"
+
+msgid "Type"
+msgstr "([not-needed]-Type)"
+
+msgid "Edited"
+msgstr "([not-needed]-Edited)"
+
+msgid "Edit this page"
+msgstr "([not-needed]-Edit this page)"
+
+msgid "Preview this page"
+msgstr "([not-needed]-Preview this page)"
+
+msgid "Approve"
+msgstr "([not-needed]-Approve)"
+
+msgid "Reject"
+msgstr "([not-needed]-Reject)"
+
+msgid "Edit"
+msgstr "([not-needed]-Edit)"
+
+msgid "Preview"
+msgstr "([not-needed]-Preview)"
+
+msgid "%(time_period)s"
+msgstr "([not-needed]-%(time_period)s)"
+
+msgid "Your most recent edits"
+msgstr "([not-needed]-Your most recent edits)"
+
+msgid "Last Edited"
+msgstr "([not-needed]-Last Edited)"
+
+msgid "Draft"
+msgstr "([not-needed]-Draft)"
+
+msgid "Live"
+msgstr "([not-needed]-Live)"
+
+msgid "Add redirect"
+msgstr "([not-needed]-Add redirect)"
+
+msgid "Save"
+msgstr "([not-needed]-Save)"
+
+msgid "A user with that username already exists."
+msgstr "([not-needed]-A user with that username already exists.)"
+
+msgid ""
+"Checkbox must include exactly 2 Skip Logic Options: true and false, in that "
+"order."
+msgstr ""
+"([not-needed]-Checkbox must include exactly 2 Skip Logic Options: true and "
+"false, in that order.)"
+
+msgid ""
+"Please save the survey as a draft to populate or update the list of "
+"questions."
+msgstr ""
+"([not-needed]-Please save the survey as a draft to populate or update the "
+"list of questions.)"
+
+msgid "Please select a question."
+msgstr "([not-needed]-Please select a question.)"
+
+msgid "Questions with non-trivial skip logic must be required."
+msgstr ""
+"([not-needed]-Questions with non-trivial skip logic must be required.)"
+
+msgid "{data[\"field_type\"]} must include at least 2 Answer Options."
+msgstr ""
+"([not-needed]-{data[\"field_type\"]} must include at least 2 Answer "
+"Options.)"
+
+msgid "Pipe (|) symbol not allowed."
+msgstr "([not-needed]-Pipe (|) symbol not allowed.)"
+
+msgid "Skipping to {logic.value[\"skip_logic\"]} not allowed for checkboxes."
+msgstr ""
+"([not-needed]-Skipping to {logic.value[\"skip_logic\"]} not allowed for "
+"checkboxes.)"
+
+msgid "name"
+msgstr "([not-needed]-name)"
+
+msgid "Safe name of the form field, the label converted to ascii_snake_case"
+msgstr ""
+"([not-needed]-Safe name of the form field, the label converted to "
+"ascii_snake_case)"
+
+msgid "default value"
+msgstr "([not-needed]-default value)"
+
+msgid "Default value. Pipe (|) separated values supported for checkboxes."
+msgstr ""
+"([not-needed]-Default value. Pipe (|) separated values supported for "
+"checkboxes.)"
+
+msgid "choices"
+msgstr "([not-needed]-choices)"
+
+msgid ""
+"For checkboxes, dropdown and radio: Pipe (|) separated list of choices."
+msgstr ""
+"([not-needed]-For checkboxes, dropdown and radio: Pipe (|) separated list of"
+" choices.)"
+
+msgid "Column header used during CSV export of poll responses."
+msgstr ""
+"([not-needed]-Column header used during CSV export of poll responses.)"
+
+msgid ""
+"Randomising the options allows the options to be shown in a different order "
+"each time the page is displayed."
+msgstr ""
+"([not-needed]-Randomising the options allows the options to be shown in a "
+"different order each time the page is displayed.)"
+
+msgid "Display options with 0 votes in results."
+msgstr "([not-needed]-Display options with 0 votes in results.)"
+
+msgid ""
+"The correct answer/choice(s). If multiple choices are correct, separate "
+"choices with a pipe (|) symbol. For checkbox: Either \"true\" or \"false\"."
+msgstr ""
+"([not-needed]-The correct answer/choice(s). If multiple choices are correct,"
+" separate choices with a pipe (|) symbol. For checkbox: Either \"true\" or "
+"\"false\".)"
+
+msgid "You have already completed this survey."
+msgstr "([has-translation]-You have already completed this survey.)"
+
+msgid "Log in to participate"
+msgstr "([has-translation]-Log in to participate)"
+
+msgid "You have read %(read)s out of %(total)s"
+msgstr "([has-translation]-You have read %(read)s out of %(total)s)"
+
+msgid "Profile"
+msgstr "([has-translation]-Profile)"
+
+msgid "Something went wrong. Please try installing the offline app again"
+msgstr ""
+"([unused]-Something went wrong. Please try installing the offline app again)"
+
+msgid "This comment has been reported."
+msgstr "([has-translation]-This comment has been reported.)"
+
+msgid "Your browser does not support video playback."
+msgstr ""
+"([has-partial-translation]-Your browser does not support video playback.)"
+
+msgid "Your browser does not support audio playback."
+msgstr ""
+"([has-partial-translation]-Your browser does not support audio playback.)"
+
+msgid "Don't display my username next to my comment"
+msgstr ""
+"([has-partial-translation]-Don't display my username next to my comment)"
+
+msgid "Anonymous"
+msgstr "([has-partial-translation]-Anonymous)"
+
+msgid "More"
+msgstr "([has-translation]-More)"
+
+msgid "Report this comment?"
+msgstr "([has-partial-translation]-Report this comment?)"
+
+msgid ""
+"It will be reviewed by the team and may be removed if it breaks our Platform"
+" Rules"
+msgstr ""
+"([has-translation]-It will be reviewed by the team and may be removed if it "
+"breaks our Platform Rules)"
+
+msgid "Display name"
+msgstr "([has-partial-translation]-Display name)"
+
+msgid "Add Canned Response"
+msgstr "([not-needed]-Add Canned Response)"
+
+msgid "Reported by %(comment_report_count)s user"
+msgid_plural "Reported by %(comment_report_count)s users"
+msgstr[0] ""
+"([has-partial-translation]-Reported by %(comment_report_count)s user)"
+msgstr[1] ""
+"([has-partial-translation]-Reported by %(comment_report_count)s users)"
+
+msgid "You do not have the permission to perform this action."
+msgstr "([not-needed]-You do not have the permission to perform this action.)"
+
+msgid "Loading translations..."
+msgstr "([not-needed]-Loading translations...)"
+
+msgid "When active locale will be shown in the language selector"
+msgstr ""
+"([not-needed]-When active locale will be shown in the language selector)"
+
+msgid "When active locale will be used as default language for the site"
+msgstr ""
+"([not-needed]-When active locale will be used as default language for the "
+"site)"
+
+msgid "There is already a main language for this site"
+msgstr "([not-needed]-There is already a main language for this site)"
+
+msgid ""
+"Sorry, %(page_title)s is not available in %(language)s. If you want to keep "
+"browsing in %(language)s you can click below to return to the homepage."
+msgstr ""
+"([has-partial-translation]-Sorry, %(page_title)s is not available in "
+"%(language)s. If you want to keep browsing in %(language)s you can click "
+"below to return to the homepage.)"
+
+msgid "Display Name"
+msgstr "([not-needed]-Display Name)"
+
+msgid "Username not available."
+msgstr "([has-partial-translation]-Username not available.)"
+
+msgid "Display name not available."
+msgstr "([has-partial-translation]-Display name not available.)"
+
+msgid "Please complete the questions marked as required to continue"
+msgstr ""
+"([needs-translation]-Please complete the questions marked as required to "
+"continue)"
+
+msgid "Name for the bot that the user will see when interacting with it"
+msgstr ""
+"([not-needed]-Name for the bot that the user will see when interacting with "
+"it)"
+
+msgid ""
+"To set up a chatbot channel on your RapidPro server and get a request URL, "
+"follow the steps outline in the Section \"Setting up a Chatbot channel\" "
+"here: https://github.com/unicef/iogt/blob/develop/messaging/README.md"
+msgstr ""
+"([not-needed]-To set up a chatbot channel on your RapidPro server and get a "
+"request URL, follow the steps outline in the Section \"Setting up a Chatbot "
+"channel\" here: "
+"https://github.com/unicef/iogt/blob/develop/messaging/README.md)"
+
+msgid "You have already completed this quiz."
+msgstr "([has-partial-translation]-You have already completed this quiz.)"
+
+msgid "You have already completed this poll."
+msgstr "([has-partial-translation]-You have already completed this poll.)"
+
+msgid "Replay Poll"
+msgstr "([not-needed]-Replay Poll)"
+
+msgid "Replay Survey"
+msgstr "([not-needed]-Replay Survey)"
+
+msgid "Replay"
+msgstr "([not-needed]-Replay)"
+
+msgid ""
+"If you cannot view the above video, you can instead %(start_link)sdownload "
+"it%(end_link)s."
+msgstr ""
+"([has-partial-translation]-If you cannot view the above video, you can "
+"instead %(start_link)sdownload it%(end_link)s.)"
+
+msgid ""
+"If you cannot listen to the above audio, you can instead "
+"%(start_link)sdownload it%(end_link)s."
+msgstr ""
+"([has-partial-translation]-If you cannot listen to the above audio, you can "
+"instead %(start_link)sdownload it%(end_link)s.)"
+
+msgid "Full width"
+msgstr "([not-needed]-Full width)"
+
+msgid "Left-aligned"
+msgstr "([not-needed]-Left-aligned)"
+
+msgid "Right-aligned"
+msgstr "([not-needed]-Right-aligned)"
+
+msgid "label"
+msgstr "([not-needed]-label)"
+
+msgid "The label of the form field"
+msgstr "([not-needed]-The label of the form field)"
+
+msgid ""
+"Original Size (Can use LARGE amounts of user data package, not recommended)"
+msgstr ""
+"([not-needed]-Original Size (Can use LARGE amounts of user data package, not"
+" recommended))"
+
+msgid "Required"
+msgstr "([unused]-Required)"
+
+msgid "Bengali"
+msgstr "([not-needed]-Bengali)"
+
+msgid "Sinhala"
+msgstr "([not-needed]-Sinhala)"
+
+msgid "Search results for:"
+msgstr "([has-translation]-Search results for:)"
+
+msgid "Dari"
+msgstr "([not-needed]-Dari)"
+
+msgid "Hindi"
+msgstr "([not-needed]-Hindi)"
+
+msgid "Pashto"
+msgstr "([not-needed]-Pashto)"
+
+msgid "Tamil"
+msgstr "([not-needed]-Tamil)"
+
+msgid "Date must be in this (YYYY-MM-DD) format"
+msgstr "([needs-translation]-Date must be in this (YYYY-MM-DD) format)"
+
+msgid "Datetime must be in this YYYY-MM-DDTHH:SS format"
+msgstr ""
+"([needs-translation]-Datetime must be in this YYYY-MM-DDTHH:SS format)"

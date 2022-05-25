@@ -1,0 +1,35 @@
+{% extends "django_comments_xtd/base.html" %}
+{% load i18n %}
+{% load comments %}
+{% load comments_xtd %}
+{% load humanize %}
+
+{% block title %}{% translate "Reply" %}{% endblock %}
+
+{% block comment_content %}
+<div class="container">
+  <div class="mb-4">
+    <h3 class="text-center">{% translate "Reply" %}</h3>
+    <hr/>
+  </div>
+  <div class="row">
+    <div class="offset-md-1 col-md-10">
+      <div class="media">
+        <div class="media-body">
+          <div class="comment pb-3">
+            <h6 class="mb-1 small">
+              {{ comment.submit_date|naturaltime }}&nbsp;-&nbsp;{% if comment.user_name|lower == 'anonymous' %}Anonymous{% else %}{{ comment.user.get_display_name }}{% endif %}
+            </h6>
+            <p>{{ comment.comment }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="card mt-4 mb-5">
+        <div class="card-body">
+          {% include "comments/form.html" %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

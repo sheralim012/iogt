@@ -1,0 +1,8 @@
+-r requirements.txt
+pytest
+pytest-django
+Faker
+beautifulsoup4
+django-test-plus>=1.4.0
+coverage
+factory-boy==3.2.*

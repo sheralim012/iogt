@@ -1,0 +1,344 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-31 09:38+0000\n"
+"PO-Revision-Date: 2021-07-31 09:38+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "quizzes"
+msgstr "កម្រងសំណួរខ្លីៗ"
+
+msgid "Log in to participate"
+msgstr "ចុះឈ្មោះចូលគណនីដើម្បីចូលរួម"
+
+msgid "Log in / Create account"
+msgstr "ចុះឈ្មោះចូលគណនី / បង្កើតគណនី"
+
+msgid "© The Internet of Good Things"
+msgstr "© The Internet of Good Things"
+
+msgid "Profile"
+msgstr "ប្រវត្តិរូប"
+
+msgid "Chat"
+msgstr "ជជែក"
+
+msgid "More"
+msgstr "បន្ថែម"
+
+msgid "Log in"
+msgstr "ចុះឈ្មោះចូលគណនី"
+
+msgid "Back"
+msgstr "ថយក្រោយ"
+
+msgid "BACK"
+msgstr "ថយក្រោយ"
+
+msgid "Previous"
+msgstr "មុន"
+
+msgid "Next"
+msgstr "បន្ទាប់"
+
+msgid "Comments"
+msgstr "មតិ"
+
+msgid "Please log in or create your account"
+msgstr "សូមចុះឈ្មោះចូលគណនី ឬបង្កើតគណនីរបស់អ្នក"
+
+msgid "Report"
+msgstr "រាយការណ៍"
+
+msgid "Related Articles"
+msgstr "អត្ថបទពាក់ព័ន្ធ"
+
+msgid "This comment has been reported."
+msgstr "មតិនេះត្រូវបានរាយការណ៍។"
+
+msgid ""
+"It will be reviewed by the team and may be removed if it breaks our Platform"
+" Rules"
+msgstr ""
+"វានឹងត្រូវបានពិនិត្យដោយក្រុមការងារ "
+"ហើយអាចនឹងដកចេញប្រសិនបើវាខុសនឹងច្បាប់វេទិការបស់យើង"
+
+msgid "articles"
+msgstr "អត្ថបទ"
+
+msgid "Search the site..."
+msgstr "ស្វែងរកលើគេហទំព័រ..."
+
+msgid "Search results for:"
+msgstr "ស្វែងរកលទ្ធផលសម្រាប់៖"
+
+msgid "No search results were found for"
+msgstr "គ្មានលទ្ធផលស្វែងរកត្រូវបានរកឃើញសម្រាប់"
+
+msgid "Username"
+msgstr "ឈ្មោះអ្នកប្រើប្រាស់"
+
+msgid "Create your account"
+msgstr "បង្កើតគណនី"
+
+msgid "Forgot PIN"
+msgstr "បានភ្លេច PIN"
+
+msgid "Cancel"
+msgstr "បោះបង់"
+
+msgid "Hey, %(username)s"
+msgstr "សួស្តី %(username)s"
+
+msgid "Change Digital Pin"
+msgstr "ប្តូរ Pin ឌីជីថល"
+
+msgid "Personal Details"
+msgstr "ព័ត៌មានលម្អិតផ្ទាល់ខ្លួន"
+
+msgid "Save changes"
+msgstr "រក្សាទុកការកែប្រែ"
+
+msgid "Reset PIN"
+msgstr "កំណត់ PIN ជាថ្មី"
+
+msgid "Your PIN has been changed successfully."
+msgstr "PIN របស់អ្នកបានផ្លាស់ប្តូរដោយជោគជ័យ។"
+
+msgid "I accept the Terms and Conditions."
+msgstr "ខ្ញុំសូមទទួលយកលក្ខខណ្ឌ។"
+
+msgid "You have read %(read)s out of %(total)s"
+msgstr "អ្នកបានអាន %(read)s ​ក្នុងចំណោម %(total)s"
+
+msgid "%(counter)s of %(total)s questions"
+msgstr "%(counter)s នៃសំណួរ %(total)s"
+
+msgid "Select one"
+msgstr "ជ្រើសរើសមួយ"
+
+msgid "Optional"
+msgstr "ជាជម្រើស"
+
+msgid "No limit"
+msgstr "គ្មានកំណត់"
+
+msgid "Go to homepage"
+msgstr "ទៅទំព័រដើម"
+
+msgid "You have already completed this survey."
+msgstr "អ្នកបានបំពេញការស្ទង់មតិនេះរួចហើយ។"
+
+msgid "Check all that apply"
+msgstr "គូសគ្រីសទាំងអស់ដែលស័ក្តិសម"
+
+msgid "Your results!"
+msgstr "លទ្ធផលរបស់អ្នក!"
+
+msgid "Replay Quiz"
+msgstr "ចាក់កម្រងសំណួរខ្លីៗជាថ្មី"
+
+msgid "Incorrect"
+msgstr "មិនត្រឹមត្រូវ"
+
+msgid "Correct"
+msgstr "ត្រឹមត្រូវ"
+
+msgid "Your answer"
+msgstr "ចម្លើយរបស់អ្នក"
+
+msgid "Leave comment"
+msgstr "បញ្ចេញមតិ"
+
+msgid "Reply"
+msgstr "ឆ្លើយតប"
+
+msgid "Page not found"
+msgstr "រកមិនឃើញទំព័រ"
+
+msgid "Sorry, this page could not be found."
+msgstr "សុំទោស រកមិនឃើញទំព័រនេះទេ"
+
+msgid "Internal server error"
+msgstr "បញ្ហាបណ្តាញមេខាងក្នុង"
+
+msgid "1 result"
+msgid_plural "%(counter)s results"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "poll"
+msgstr ""
+
+msgid "survey"
+msgstr ""
+
+msgid "quiz"
+msgstr ""
+
+msgid "This field is required."
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Remove this comment?"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "This comment has been removed."
+msgstr ""
+
+msgid "moderator"
+msgstr ""
+
+msgid "sections"
+msgstr ""
+
+msgid "Check if applies"
+msgstr ""
+
+msgid "New comments have been disabled for this page."
+msgstr ""
+
+msgid "Correct answer"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid ""
+"You are leaving the <b>Internet of Good Things</b> to visit an external "
+"website and standard data charges by your network provider might apply"
+msgstr ""
+
+msgid "Continue to external site"
+msgstr ""
+
+msgid "4-digit PIN"
+msgstr ""
+
+msgid "Old 4-digit PIN"
+msgstr ""
+
+msgid "New 4-digit PIN"
+msgstr ""
+
+msgid "Confirm new 4-digit PIN"
+msgstr ""
+
+msgid "Log out"
+msgstr ""
+
+msgid "section"
+msgstr ""
+
+msgid "article"
+msgstr ""
+
+msgid "Remember me"
+msgstr ""
+
+msgid "You have signed out."
+msgstr ""
+
+msgid ""
+"Enter a valid username. This value may contain only letters, numbers, and "
+"@/./+/-/_ characters."
+msgstr ""
+
+msgid "You must type the same password each time."
+msgstr ""
+
+msgid "This password is too short. It must contain at least 4 characters."
+msgstr ""
+
+msgid "Please type your current password."
+msgstr ""
+
+msgid "Password successfully changed."
+msgstr ""
+
+msgid "Enter a valid date/time."
+msgstr ""
+
+msgid "Enter a valid date."
+msgstr ""
+
+msgid "Enter a valid URL."
+msgstr ""
+
+msgid "Enter a valid email address."
+msgstr ""
+
+msgid "Enter a valid integer."
+msgstr ""
+
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+msgid "Your comment"
+msgstr ""
+
+msgid "Are you sure you want to log out?"
+msgstr ""
+
+msgid "Your browser does not support video playback."
+msgstr ""
+
+msgid "Your browser does not support audio playback."
+msgstr ""
+
+msgid "Don't display my username next to my comment"
+msgstr ""
+
+msgid "Anonymous"
+msgstr ""
+
+msgid "Report this comment?"
+msgstr ""
+
+msgid "Display name"
+msgstr ""
+
+msgid "Reported by %(comment_report_count)s user"
+msgid_plural "Reported by %(comment_report_count)s users"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"Sorry, %(page_title)s is not available in %(language)s. If you want to keep "
+"browsing in %(language)s you can click below to return to the homepage."
+msgstr ""
+
+msgid "Username not available."
+msgstr ""
+
+msgid "Display name not available."
+msgstr ""
+
+msgid "You have already completed this quiz."
+msgstr ""
+
+msgid "You have already completed this poll."
+msgstr ""
+
+msgid ""
+"If you cannot view the above video, you can instead %(start_link)sdownload "
+"it%(end_link)s."
+msgstr ""
+
+msgid ""
+"If you cannot listen to the above audio, you can instead "
+"%(start_link)sdownload it%(end_link)s."
+msgstr ""

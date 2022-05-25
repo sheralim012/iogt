@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static home_tags wagtailimages_tags i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+{% block extra_css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/survey.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/questionnaire.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="title">{{ page.title }}</h1>
+        <div class="survey-page__description">{{ page.thank_you_text }}</div>
+        {% include 'questionnaires/tags/poll_survey_buttons.html' %}
+    </div>
+{% endblock %}

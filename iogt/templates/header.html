@@ -1,128 +1,45 @@
-{% load static menu_tags %}
-<header class="header">
-    <div class="header-top">
-        <div class="header-top-language-strip">
-            <div class="current-language">Language: <span>English</span>
-            </div>
-            <div class="change-language">
-                <input type="checkbox" class="collapse" id="handel1">
-                <label for="handel1">Change Language <i class="material-icons">keyboard_arrow_down</i>
-                </label>
-                <div class="content">
-                    <div class="language-list-menu-content">
-                        <ul>
-                            <li id="English">
-                                <a class="">English</a>
-                            </li>
-                            <li id="العربيّة">
-                                <a class="">العربيّة</a>
-                            </li>
-                            <li id="FRANÇAIS">
-                                <a class="">FRANÇAIS</a>
-                            </li>
-                            <li id="ESPAÑOL">
-                                <a class="">ESPAÑOL</a>
-                            </li>
-                            <li id="PORTUGUÊS">
-                                <a class="">PORTUGUÊS</a>
-                            </li>
-                            <li id="РУССКИЙ">
-                                <a class="">РУССКИЙ</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-middle">
-            <a class="logo-small" href='/'>
-                <img src="{% static "/images/iogt-logo-two-lines.png" %}"/>
-            </a>
-            <div class="join-menu">
-                <a>Join</a>
-                <a>Menu</a>
-            </div>
-            <div class="signin-language">
-                <a class="signin" href="/signin">Sign in</a>
-                <div class="language-dropdown">
-                    <span>English<i class="material-icons">expand_more</i></span>
-                    <div class="language-dropdown-content">
-                        <a class="language-name" href="/">ESPAÑOL</a>
-                    </div>
-                </div>
+{% load static menu_tags i18n wagtailimages_tags home_tags image_tags generic_components %}
 
-            </div>
+{% get_current_language as LANGUAGE_CODE %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+{% get_available_languages as LANGUAGES %}
+{% get_language_info_list for LANGUAGES as languages %}
 
-            <div class="search-menu">
-                <a>
-                    <icon class="material-icons">search</icon>
-                </a>
-                <a>
-                    <icon class="material-icons">menu</icon>
+<header id="header" style="background: {{ settings.home.ThemeSettings.header_background_color }}">
+    <div class="header-holder">
+        <div class="header-content">
+            <div class="logo-holder">
+                <a href="{% translated_home_page_url LANGUAGE_CODE %}">
+                    {% image settings.home.SiteSettings.logo width-120 class='xs-image' %}
                 </a>
             </div>
-        </div>
-
-        <div class="tabletDesktopSignin">
-            <a class="logo-full" href="/">
-                <img src={% static "/images/iogt-logo-two-lines.png" %}>
-            </a>
-            <form id="search-bar" role="search" class="search-bar" action="{% url 'search' %}">
-                <input placeholder="Enter your search here..." type="text" name="query">
-                <button type="submit">
-                    <i class="material-icons">search</i>
-                </button>
-            </form>
-            {% if request.user.is_anonymous %}
-                <a class="signin" href="{% url 'account_signup' %}">Sign Up</a>
-            {% else %}
-                <a class="signin" href="{% url 'user_profile' %}">Profile</a>
-                <a class="signin" href="{% url 'account_logout' %}">Sign out</a>
-            {% endif %}
-        </div>
-
-    </div>
-    <nav class="nav">
-        <div class="categories-dropdown">
-            <div class="btn-group">
-                <button class="categories-btn">All Categories</button>
-                <button class="categories-btn-arrow">
-                    <i class="material-icons icon">arrow_drop_down</i>
-                </button>
+            <div class="language__select">
+                {% language_switcher page %}
             </div>
-            <div class="categories-dropdown-content">
-                <dl>
+        </div>
+        <div class="form-holder search-form-holder">
+            <a class="js-search-btn" href="{% url "search" %}">
+                {% render_icon icon_path='icons/search.svg' attrs="alt='Search' class='xs-home-header__search'" %}
+            </a>
+            <form class='search__form' action="{% url 'search' %}">
+                <label>
                     <span>
-                        <a class="dl-title" href='/'>
-                            <dt>Topic title
-                                <i class="material-icons">arrow_drop_up</i>
-                            </dt>
-                        </a>
-                        <a class="dl-item" href='/'>
-                            <dd>Topic item</dd>
-                        </a>
+                        {% render_icon icon_path='icons/search.svg' width=18 height=18 stroke_color='#9A9A9A' %}
                     </span>
-                </dl>
+                    <input type="text" name="query" placeholder="{% translate 'Search the site...' %}" pattern="\S+.*"/>
+                </label>
+            </form>
+        </div>
+        <div class="btn-holder">
+            <div class="nav-bar__item">
+                {% url 'account_login' as login_url %}
+                {% if request.user.is_anonymous %}
+                    {% primary_button title="Log in / Create account" href=login_url icon_path='icons/login.svg' extra_classnames='login-create-account-btn' %}
+                {% else %}
+                    {% url 'user_profile' as profile_url %}
+                {% primary_button title="Profile" href=profile_url icon_path='icons/profile.svg' %}
+                {% endif %}
             </div>
         </div>
-
-        {% main_menu max_levels=3 %}
-
-        <div class="see-more">
-            <a href="/7">
-                <i class="material-icons">more_vert</i>
-                See more
-            </a>
-        </div>
-
-        <div class="language" href="">
-            <div class="language-dropdown">
-                <span>Language:</span>
-                <a>English<i class='material-icons'></i></a>
-                <div class="language-dropdown-content">
-                    <a class="language-name" href='/'>ESPAÑOL</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-</header>
+    </div>
+</header>  

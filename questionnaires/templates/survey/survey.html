@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load home_tags questionnaires_tags %}
+{% load static wagtailcore_tags i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block extra_css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/questionnaire.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/survey.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="survey-page">
+        <div class="container">
+            <h1 class="title survey-page__title">{{ page.title }}</h1>
+            {% if page.description %}
+                <div class="survey-page__description">{{ page.description }}</div>{% endif %}
+            {% if user.is_authenticated or request.is_preview or page.allow_anonymous_submissions %}
+                {% if form %}
+                    <form action="{% get_action_url page self fields_step request form %}"
+                          method="POST" class="survey-page__content">
+                        {% csrf_token %}
+                        <div class="survey-page__content">
+                            {% for field in form %}
+                                <div class="quest-item" tabindex="0">
+                                    <div class="quest-item__header">
+                                        {% field_description field %}
+                                    </div>
+                                    <div class="quest-item__desc">
+                                        {% if field.widget_type != "checkbox" %}
+                                            <p>{{ field.label }}</p>
+                                        {% endif %}
+                                    </div>
+                                    {% render_field field %}
+                                </div>
+                            {% endfor %}
+                        </div>
+                        {% include 'questionnaires/tags/terms_and_conditions.html' with questionnaire=page %}
+                        <div class="{{ page.get_type }}-page__btns">
+                            {% render_submit_button fields_step page %}
+                        </div>
+                    </form>
+                {% else %}
+                    {% include 'questionnaires/tags/already_completed.html' %}
+                {% endif %}
+            {% else %}
+                {% include 'questionnaires/tags/login_to_participate.html' %}
+            {% endif %}
+            {% include 'questionnaires/tags/go_to_homepage.html' %}
+        </div>
+    </div>
+{% endblock content %}

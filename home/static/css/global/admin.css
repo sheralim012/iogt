@@ -1,0 +1,15 @@
+.action-add-block-paragraph_v1_legacy {
+    text-decoration: line-through;
+    pointer-events: none;
+    background-color: gray;
+}
+
+.red-help-text p.help {
+    color: red;
+}
+
+.disabled-clean-name textarea {
+    pointer-events: none;
+    background-color: #e6e6e6;
+    color: #4d4d4d;
+}

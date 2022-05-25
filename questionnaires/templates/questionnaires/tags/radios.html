@@ -1,0 +1,10 @@
+{% load static wagtailcore_tags wagtailimages_tags i18n %}
+
+{% for radio in field %}
+    <div class="quest-item__content">
+        <label class="quest-item__label quest-item__input--visible">
+          {{ radio.tag }}
+            <span class="cust-check__title">{{ radio.choice_label }}</span>
+        </label>
+    </div>
+{% endfor %}
