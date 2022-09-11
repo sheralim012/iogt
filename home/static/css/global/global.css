@@ -1546,6 +1546,10 @@ body.rtl {
   width: 100%;
 }
 
+.hide-double-navbar-in-single-column-view {
+  display: none;
+}
+
 @media screen and (max-width: 359px) {
   .header-holder {
     padding: 12px 20px;

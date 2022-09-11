@@ -1,4 +1,4 @@
-{% load static wagtailcore_tags wagtailimages_tags wagtailuserbar menu_tags home_tags %}
+{% load static wagtailcore_tags wagtailimages_tags wagtailuserbar menu_tags home_tags wagtailsettings_tags %}
 {% load i18n %}
 {% get_current_language as LANGUAGE_CODE %}
 {% get_language_info for LANGUAGE_CODE as lang %}
@@ -8,7 +8,7 @@
 
 <footer class='footer-main'>
  {% flat_menu LANGUAGE_CODE|add:'_menu_live' template="nav_bar.html" %}
-    <div id="menu" class="footer-head">
+    <div id="menu" class="footer-head {{ settings.home.SiteSettings.get_double_navbar_in_single_column_view }}">
         {% include "header.html" %}
     </div>
     <div class='footer'>

@@ -682,6 +682,7 @@ class SiteSettings(BaseSetting):
                                             blank=True,
                                             on_delete=models.SET_NULL)
     opt_in_to_google_web_light = models.BooleanField(default=False)
+    hide_double_navbar_in_single_column_view = models.BooleanField(default=False)
 
     panels = [
         ImageChooserPanel('logo'),
@@ -755,12 +756,21 @@ class SiteSettings(BaseSetting):
             ],
             heading="Opt in to Google web light",
         ),
+        MultiFieldPanel(
+            [
+                FieldPanel('hide_double_navbar_in_single_column_view'),
+            ],
+            heading="Hide double navbar in single column view",
+        ),
     ]
 
     @classmethod
     def get_for_default_site(cls):
         default_site = Site.objects.filter(is_default_site=True).first()
         return cls.for_site(default_site)
+
+    def get_double_navbar_in_single_column_view(self):
+        return 'hide-double-navbar-in-single-column-view' if self.hide_double_navbar_in_single_column_view else ''
 
     def __str__(self):
         return self.site.site_name
